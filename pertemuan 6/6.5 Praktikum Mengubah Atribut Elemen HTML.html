@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function lampu_on() {
+        document.getElementById('lampu').src = 'lampuon.png';
+      }
+      function lampu_off() {
+        document.getElementById('lampu').src = 'lampuoff.png';
+      }
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6.5 Praktikum Mengubah Atribut Elemen HTML</title>
+  </head>
+  <body>
+    <h2>Java Script Dapat Mengubah Atribut Elemen HTML</h2>
+    <img src="lampuoff.png" id="lampu" height="500px" width="500px" />
+    <button type="button" onclick="lampu_on()">ON</button>
+    <button type="button" onclick="lampu_off()">OFF</button>
+  </body>
+</html>
